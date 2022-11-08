@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jour du code</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <!-- infos persos -->
+    <!-- <p></p> -> element html-->
+    <p>Nom</p>  
+    <p>Prenom</p>
+    <p>Addresse</p>
+
+    <!-- Photo -->
+
+    <figure>
+        <!-- img est une balise orpheline -->
+        <img src="/images/cvPortrait.jpeg" alt="photo de moi"> 
+        <figcaption>photo de bogoss</figcaption>
+    </figure>
+
+    <!-- Titre -->
+    <h1>Développeur•euse web</h1>
+    <hr> <!-- est une balise orpheline -->
+
+    <h2>Menu</h2>
+    <ul>
+        <li><a href="#expériences-professionnelles">Expériences professionnelles</a></li>
+        <li><a href="#formations">Formations</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <hr>
+    <b>A propos : </b> Lorem ipsum dolor, sit amet <strong>consectetur</strong> <mark>adipisicing</mark> elit. 
+    Saepe tenetur repudiandae alias harum exercitationem ipsum neque optio quisquam. 
+    Minima iure quibusdam quos veniam aut dicta nostrum libero error magnam dolor.
+    <hr>
+    <!-- Expériences professionnelles -->
+    <h2 id="expériences-professionnelles">Expériences professionnelles</h2>
+
+    <table>
+        <tr>
+            <th>2016-2017</th>
+            <th>Developpeur.euse front</th>
+            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</td>
+        </tr>
+        <tr>
+            <th>2018-2019</th>
+            <th>Developpeur.euse back</th>
+            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</td>
+        </tr>
+        <tr>
+            <th>2019-2020</th>
+            <th>Developpeur.euse fullstack</th>
+            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Formations -->
+    <h2 id="formations">Formations</h2>
+
+    <ol type="A">
+        <li><b>2009-2014 : </b>Master en économie à science-po</li>
+        <li><b>2014-2014 : </b>Formation artis à Simplon</li>
+        <li><b>2015-2016 : </b>Formation Développeur à Simplon</li>
+    </ol>
+
+    <hr>
+
+    <!-- Portfolio -->
+    <h2 id="portfolio">Portfolio</h2>
+    <p>Voici mon travail : </p>
+
+    <iframe width="660" height="415" src="https://www.youtube.com/embed/5oH9Nr3bKfw" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+
+    <p>voici le lien vers <a href="https://www.youtube.com/watch?v=5oH9Nr3bKfw">Tom & Jerry</a></p>
+
+    <hr>
+
+    <h2 id="contact">Contact</h2>
+
+    <form action="#">
+        <label for="name"> Nom : 
+            <input name="name" id="name" type="text">
+        </label>
+        <label for="name"> Email : 
+            <input name="email" id="email" type="text">
+        </label>
+
+        <textarea name="#" id="comments" cols="30" rows="10" placeholder="Votre message"></textarea>
+        <input type="button" value="Envoyer">
+    </form>
+
+
+</body>
+</html>
